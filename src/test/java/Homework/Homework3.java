@@ -1,5 +1,7 @@
 package Homework;
 
+import java.util.Arrays;
+
 public class Homework3 {
     public static void main(String[] args) {
         /**
@@ -12,6 +14,44 @@ public class Homework3 {
          *      otherwise, print the index-2-name in uppercase
          *
          */
+    String[] petsArray = new String[5];
+        petsArray[0] = "Cat";
+        petsArray[1] = "Turtle";
+        petsArray[2] = "Dog";
+        petsArray[3] = "Hamster";
+        petsArray[4] = "Parrot";
+
+        System.out.println("\nList of common pets: "+ Arrays.toString(petsArray));
+
+        if (petsArray[2].length() > 5) {
+            System.out.println("Length of index-2 common pets -> " + petsArray[2].length());
+        } else {
+            System.out.println("Index-2 common pets in Uppercase -> " + petsArray[2].toUpperCase());
+        }
+
+        if (petsArray[0].length() > 5) {
+            System.out.println("Length of index-0 common pets -> " + petsArray[0].length());
+        } else {
+            System.out.println("Index-0 common pets in Uppercase -> " + petsArray[0].toUpperCase());
+        }
+
+        if (petsArray[1].length() > 5) {
+            System.out.println("Length of index-1 common pets -> " + petsArray[1].length());
+        } else {
+            System.out.println("Index-1 common pets in Uppercase -> " + petsArray[1].toUpperCase());
+        }
+        if (petsArray[3].length() > 5) {
+            System.out.println("Length of index-3 common pets -> " + petsArray[3].length());
+        } else {
+            System.out.println("Index-3 common pets in Uppercase -> " + petsArray[3].toUpperCase());
+        }
+        if (petsArray[4].length() > 5) {
+            System.out.println("Length of index-4 common pets -> " + petsArray[4].length());
+        } else {
+            System.out.println("Index-4 common pets in Uppercase -> " + petsArray[4].toUpperCase());
+        }
+
+
 
         /**
          * Question-2:
